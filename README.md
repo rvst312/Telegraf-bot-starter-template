@@ -42,4 +42,5 @@ heroku create
 commit -m "first commit"
 git push heroku main 
 ```
-- Now your bot is online ✔
+- In Heroku dashboard go to yourApplication/profile and change mode to Procfile
+- Now your bot is online ✅
