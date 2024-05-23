@@ -1,24 +1,45 @@
 # Telegraf node.js Bot
-Plantilla básica para crear un bot de telegram con varias vistas y opciones facilmente modificable.
-## Como empezar:
-- Busca en Telegram "BotFather".
-- Empieza creando el bot con: "/newbot".
-- Sigue los pasos hasta obtener la clave de API de nuestro bot.
-- Clona el repositorio:
+Easy starter template telegram bot  
+## Getting Starter:
+- Search in Telegram "BotFather".
+- Start bot whit: "/newbot".
+- Follow the steps until you get the API key of our bot.
+- Clone this repository:
 ```
-git clone "https://github.com/rvst312/juicy_stuff_bot.git"
+git clone "https://github.com/rvst312/Telegraf-bot-starter-template"
 ```
-- Navega hasta el directorio del bot ábrelo en un editor de código y añade la clave de API. 
+- Navigate to the bot directory open it in a code editor and add the API key. 
 ```
-cd juicy_stuff_bot
+cd Telegraf-starter-template
 ```
-- Instalamos dependéncias:
+- Install dependencies:
 ```
 npm install
 ``` 
-- Ejecutamos nuestro bot:
+- Run this bot:
 ```
 node index.js
 ```
-
-
+## Easy deploy bot in Heroku
+- Install Heroku "CLI" https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
+- Heroku login
+```
+heroku login
+- Create "Procfile" file in the root
+```
+// worker : node "name main file"
+worker: node index.js
+```
+```
+- Add repository
+```
+git init
+git add .
+```
+- Create Herou App
+```
+heroku create
+commit -m "first commit"
+git push heroku main 
+```
+- Now your bot is online ✔
