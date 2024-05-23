@@ -1,6 +1,6 @@
 # Telegraf node.js Bot
 Easy starter template telegram bot  
-## Getting Starter:
+## Getting Started:
 - Search in Telegram "BotFather".
 - Start bot whit: "/newbot".
 - Follow the steps until you get the API key of our bot.
