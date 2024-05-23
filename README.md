@@ -2,7 +2,7 @@
 Easy starter template telegram bot  
 ## Getting Started:
 - Search in Telegram "BotFather".
-- Start bot whith: "/newbot".
+- Start bot with: "/newbot".
 - Follow the steps until you get the API key of our bot.
 - Clone this repository:
 ```
@@ -22,7 +22,7 @@ node index.js
 ```
 ## Easy deploy bot in Heroku
 - Install Heroku "CLI" https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
-- Heroku login
+- Login in Heroku
 ```
 heroku login
 ```
@@ -36,7 +36,7 @@ worker: node index.js
 git init
 git add .
 ```
-- Create Herou App
+- Create Heroku App
 ```
 heroku create
 commit -m "first commit"
