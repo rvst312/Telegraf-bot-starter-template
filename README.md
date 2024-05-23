@@ -2,7 +2,7 @@
 Easy starter template telegram bot  
 ## Getting Started:
 - Search in Telegram "BotFather".
-- Start bot whit: "/newbot".
+- Start bot whith: "/newbot".
 - Follow the steps until you get the API key of our bot.
 - Clone this repository:
 ```
