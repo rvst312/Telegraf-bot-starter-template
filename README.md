@@ -25,11 +25,11 @@ node index.js
 - Heroku login
 ```
 heroku login
+```
 - Create "Procfile" file in the root
 ```
 // worker : node "name main file"
 worker: node index.js
-```
 ```
 - Add repository
 ```
